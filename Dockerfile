@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.9.13-slim-buster
 RUN pip install jinja2-cli
 RUN curl -O https://sfc-repo.azure.snowflakecomputing.com/snowsql/bootstrap/1.2/linux_x86_64/snowsql-1.2.19-linux_x86_64.bash
 RUN SNOWSQL_DEST=/bin SNOWSQL_LOGIN_SHELL=/root/.profile bash snowsql-1.2.19-linux_x86_64.bash
