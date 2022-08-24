@@ -1,2 +1,2 @@
 # snowsql
-Python image with snowsql
+Python image with snowsql installed
